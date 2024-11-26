@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Unredactor Project-2
 
 ## Introduction
@@ -141,3 +142,6 @@ pipenv run python bert_model.py
 ### View Results
 - Check the console output for classification reports.
 - The `submission.tsv` file will contain the predictions on the test set.
+=======
+# cis6930fa24project2
+>>>>>>> 2cd61ac5d8f34ee297d3cd2d4427fde179c11093
