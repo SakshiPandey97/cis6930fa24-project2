@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://download.pytorch.org/whl/cpu"
+verify_ssl = true
+name = "downloadpytorch"
+
+[[source]]
+url = "https://download.pytorch.org/whl/cu118"
+verify_ssl = true
+name = "downloadpytorch-2"
+
+[packages]
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+nltk = "*"
+torch = {version = "*", index = "downloadpytorch-2"}
+torchvision = {version = "*", index = "downloadpytorch-2"}
+torchaudio = {version = "*", index = "downloadpytorch-2"}
+transformers = "*"
+accelerate = "*"
+pytest = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
